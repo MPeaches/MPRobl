@@ -5,12 +5,12 @@ An another super barebones color bot. It can:
 * Enable/disable roles
 
 Stock commands:
-* !setchannel - to select channel, where bot would operate
+* !setchannel - elect channel, where bot would operate
 * !robl - help
 * !colorme <hexcode\> or \<random> - change color
 * !cleanme - delete color
 * !toggle \<role> - to add/delete user role
-* !cleancolors (admin only) - deletes all color roles from server
+* !cleancolors (admin only) - delete all color roles from server
 
 To launch bot, past your app token instead of 'token' placehoder, install nodejs and do node r.js in bot's directory.
 
