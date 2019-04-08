@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var chnls = new Map();
-chnls.set('170849891168288768', '429723606990192640');
+
 client.on('ready', () => {
   console.log('I am ready!');
 });
@@ -17,7 +17,7 @@ client.on('message', message => {
   const mmbr = message.guild.member(message.author);
   if (mmbr == client.user) return;
 
-  if (message.content.startsWith('!setchannel') && (mmbr.hasPermission('ADMINISTRATOR') || mmbr.id == "135854690733654016")) {
+  if (message.content.startsWith('!setchannel') && (mmbr.hasPermission('ADMINISTRATOR'))) {
     chnls.set(message.guild.id, message.channel.id);
     message.channel.send(`Канал выбран, напиши !robl для помощи`);
   };
