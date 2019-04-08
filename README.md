@@ -1,4 +1,4 @@
-This color bot is super barebones, but it can:  
+An another super barebones color bot. It can:  
 * Create color roles for users
 * Change color of user's color role
 * Clean users from color
