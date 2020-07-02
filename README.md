@@ -6,7 +6,6 @@ This is a color bot with an extra twist. It can:
 * Fetch images from Vkontakte posts
 
 Stock commands:
-* !setchannel - elect channel, where bot would operate
 * !robl - help
 * !colorme <hexcode\> or \<random> - change color
 * !cleanme - delete color
